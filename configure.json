@@ -1,0 +1,28 @@
+{
+    "stationData": {
+        "CYYJ": {
+            "use": {
+                "useStation": false,
+                "rapid": false,
+                "print": {
+                    "metar": false,
+                    "taf": false,
+                    "notam": false
+                },
+                "store": {
+                    "metar": false,
+                    "taf": false,
+                    "notam": false
+                }
+            },
+            "type": "",
+            "coordinates": [
+                "-000.000",
+                "00.000"
+            ],
+            "hasMetar": false,
+            "hasTaf": false,
+            "radius": 0
+        }
+    }
+}

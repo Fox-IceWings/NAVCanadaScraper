@@ -1,0 +1,29 @@
+{
+    "reports": {   
+        "metar": [ 
+            {
+                "issued"    : "null",
+                "recieved"  : "null",
+                "report"    : "null" 
+            }
+        ],
+
+        "taf" : [
+            {
+                "issued"    : "null",
+                "recieved"  : "null",
+                "report"    : "null" 
+            }
+        ],
+
+        "notam" : [
+            {
+                "issued"    : "null",
+                "recieved"  : "null",
+                "valid"     : "null",
+                "end"       : "null",
+                "report"    : "null" 
+            }
+        ]
+    }
+}
