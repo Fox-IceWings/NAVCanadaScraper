@@ -9,7 +9,7 @@ import json
 
 conn_str = ""
 # set a 5-second connection timeout
-client = motor.motor_asyncio.AsyncIOMotorClient(conn_str, serverSelectionTimeoutMS=5000)
+
 
 
 try: 
@@ -23,6 +23,7 @@ except:
 finally:
     f.close()
 
+client = motor.motor_asyncio.AsyncIOMotorClient(conn_str, serverSelectionTimeoutMS=5000)
 
 #write new station to database
 async def add_new_station(control, printReport, save, raw): #see note 1
